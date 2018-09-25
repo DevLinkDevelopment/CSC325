@@ -24,7 +24,7 @@ public class CSC325 extends AppCompatActivity
         this.inputET = (EditText)this.findViewById(R.id.inputET);
         this.negativeSwitch = (Switch)this.findViewById(R.id.negativeSwitch);
     }
-
+    //test
     private String flipTheBits(String bin)
     {
         String answer = "";
