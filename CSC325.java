@@ -37,8 +37,22 @@ public class CSC325 extends AppCompatActivity
 
     private String addOne(String bin)
     {
-        //will return a new String that is the given String with 1 added to it
-        return bin;
+
+
+
+        //Homework #2 Answer
+        //
+        //
+        int tempBin = Integer.parseInt(bin, 2);
+        int binOne = Integer.parseInt("1", 2);
+        int sum = tempBin + binOne;
+        return Integer.toString(sum);
+        //
+        //
+        //
+
+
+
     }
 
     private String encodeAsTwosComplement(String bin)
